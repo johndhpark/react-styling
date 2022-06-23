@@ -1,6 +1,6 @@
 {
   "ignorePatterns": ["**/*.css"],
-  "extends": ["airbnb", "plugin:react/jsx-runtime", "prettier"],
+  "extends": ["airbnb", "prettier"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "jsx-a11y/label-has-associated-control": [
@@ -20,7 +20,7 @@
       }
     ],
     "react/button-has-type": [
-      true,
+      2,
       {
         "button": true,
         "submit": true,
