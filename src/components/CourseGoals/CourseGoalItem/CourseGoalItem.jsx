@@ -25,8 +25,8 @@ function CourseGoalItem({ onDelete, children, id, index }) {
 
 CourseGoalItem.propTypes = {
   onDelete: PropTypes.func.isRequired,
-  children: PropTypes.element.isRequired,
+  children: PropTypes.string.isRequired,
   index: PropTypes.number.isRequired,
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
 };
 export default CourseGoalItem;
